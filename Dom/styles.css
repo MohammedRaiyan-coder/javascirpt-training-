@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: greenyellow;
+}
+
+#btn{
+    padding: 12px 22px;
+    background-color: rgb(16, 145, 59);
+    color: white;
+    border-radius: 12px;
+    font-weight: 200;
+}
+#btn:hover{
+    background-color: rgb(21, 102, 48);
+}
+
+#fileinp{
+    display: none;
+}
+
